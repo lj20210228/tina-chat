@@ -1,0 +1,20 @@
+{
+  "short_name": "Tina AI",
+  "name": "Tina - Healthy Girl Bestie",
+  "icons": [
+    {
+      "src": "/avatar.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/avatar.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FAF6EE",
+  "background_color": "#FAF6EE"
+}
