@@ -239,7 +239,7 @@ export default function App() {
           {isLoading && (
             <div className="flex items-center space-x-2 text-[#8C7A6B] text-xs italic pl-8 animate-pulse bg-white/70 p-2 rounded-full w-max backdrop-blur-xs border border-[#EADFC9]">
               <Sparkles size={14} className="text-[#D4A373]" />
-              <span>Taša kucka poruku uz vanilla iced latte... ☕</span>
+              <span>Tina kucka poruku uz proteinski puding ... </span>
             </div>
           )}
           <div ref={messagesEndRef} />
