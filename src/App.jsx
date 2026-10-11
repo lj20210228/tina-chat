@@ -51,7 +51,7 @@ export default function App() {
       {
         id: 'init-1',
         sender: 'bot',
-        text: 'Cao girlyyy! +🏋️‍♀️ Ja sam tvoja nova AI bestie. Spreman nam je avocado tost sa bezglutenskim hlebom, kaži mi šta ima novo danas? ✨',
+        text: 'Cao girlyyy! 🏋️‍♀️ Ja sam tvoja nova AI bestie. Spreman nam je avocado tost sa bezglutenskim hlebom, kaži mi šta ima novo danas? ✨',
         time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
         liked: false
       }
@@ -247,7 +247,23 @@ export default function App() {
 
         {/* INPUT & CHIPS AREA */}
         <footer className="absolute bottom-0 left-0 right-0 bg-[#FAF6EE]/95 backdrop-blur-md border-t border-[#EADFC9] p-3 space-y-2">
-         
+         {/* Quick Action Chips */}
+<div className="flex space-x-2 overflow-x-auto pb-1 text-xs no-scrollbar">
+  {[
+    "Idemo li na trening? 🏋️‍♀️", 
+    "Jesi pojela celu picu? 🍕", 
+    "Šta radi Mikan? 🤫", 
+    "Šta ima na TMF-u? ☕"
+  ].map((chip, idx) => (
+    <button
+      key={idx}
+      onClick={() => handleSendMessage(chip)}
+      className="px-3 py-1 bg-white/80 hover:bg-[#F2E8D5] text-[#6B5B4E] border border-[#EADFC9] rounded-full whitespace-nowrap transition flex-shrink-0 text-[11px] shadow-xs"
+    >
+      {chip}
+    </button>
+  ))}
+</div>
 
           {/* Input form */}
           <div className="flex items-center space-x-2">
