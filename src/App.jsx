@@ -51,7 +51,7 @@ export default function App() {
       {
         id: 'init-1',
         sender: 'bot',
-        text: 'Ciao girlyyy! 🍋 Ja sam tvoja nova AI bestie. Spreman nam je vanilla ice latte, kaži mi šta ima novo danas? ✨',
+        text: 'Cao girlyyy! +🏋️‍♀️ Ja sam tvoja nova AI bestie. Spreman nam je avocado tost sa bezglutenskim hlebom, kaži mi šta ima novo danas? ✨',
         time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
         liked: false
       }
